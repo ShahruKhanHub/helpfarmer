@@ -2,9 +2,9 @@ import React from 'react';
 
 const TextAreaInput = ({ label, name, value, onChange }) => {
     return (
-        <div class="input-field col s12">
-          <textarea name={name} class="materialize-textarea" value={value} onChange={onChange}></textarea>
-          <label for={label}>{label}</label>
+        <div className="input-field col s12">
+          <textarea name={name} className="materialize-textarea" value={value} onChange={onChange}></textarea>
+          <label htmlFor={label}>{label}</label>
         </div>
     );
 };

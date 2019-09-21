@@ -2,15 +2,15 @@ import React from 'react';
 
 const TextInput = ({ name, placeholder, label, value, onChange }) => {
     return (
-        <div class="input-field col s6">
+        <div className="input-field col s6">
             <input
                 name={name}
                 placeholder={placeholder}
                 type="text"
-                class="validate"
+                className="validate"
                 value={value}
                 onChange={onChange} />
-            <label for="groupName">{label}</label>
+            <label htmlFor="groupName">{label}</label>
         </div>
     );
 };
