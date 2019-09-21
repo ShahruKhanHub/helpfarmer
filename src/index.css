@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.home__background{
+    width: 100%;
+    height: 95vh;
+    background-image: url("./img/home.jpeg");
+}
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

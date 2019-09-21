@@ -26,7 +26,6 @@ class createGroup extends Component{
                     <TextInput
                         label="Group Name"
                         name="groupName"
-                        placeholder="Ex - Farm World"
                         value={this.state.groupName}
                         onChange={this.onChange.bind(this)} />
                 </div>
@@ -41,7 +40,6 @@ class createGroup extends Component{
                     <TextInput
                         label="Location"
                         name="location"
-                        placeholder="Ex - 123 farm st"
                         value={this.state.location}
                         onChange={this.onChange.bind(this)} />
                 </div>
