@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 
+import TextInput from './common/TextInput';
+import TextAreaInput from './common/TextAreaInput';
+
 class createGroup extends Component{
     render(){
         return(
             <div>
                 <h2>Create Group</h2>
-                <div class="input-field col s6">
-                    <input placeholder="Group Name" type="text" />
-                    <label for="groupName">Group Name</label>
-                </div>
+                <TextInput
+                    label="Group Name"
+                    placeholder="Ex - Farm World" />
+                <TextAreaInput
+                    label="Description" />
+                <TextInput
+                    label="Location"
+                    placeholder="Ex - 123 farm st" />
             </div>
             
         );
