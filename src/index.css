@@ -6,6 +6,19 @@
     box-sizing: inherit;
 }
 
+nav{
+    background-color: transparent;
+    color: black;
+}
+
+nav ul a {
+    color: black;
+}
+
+.logo__image{
+ width: 10rem;
+}
+
 .home__background{
     width: 100%;
     height: 95vh;
