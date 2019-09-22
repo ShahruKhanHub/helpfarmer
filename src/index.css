@@ -18,3 +18,18 @@
     justify-content: center;
     align-items: center;
 }
+
+.card__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__button{
+    border: 1px solid blue;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.card__button:hover{
+    background-color: aquamarine;
+}

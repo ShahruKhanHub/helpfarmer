@@ -5,6 +5,7 @@ import Nav from './components/layout/Nav';
 import Home from './components/Home';
 import CreateGroup from './components/createGroup';
 import Groups from './components/Groups';
+import Group from './components/Group';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/createGroup" component={CreateGroup} />
       <Route exact path="/groups" component={Groups} />
+      <Route exact path="/groups/a" component={Group} />
     </Router>
   );
 }
