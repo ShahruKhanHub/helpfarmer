@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.home__background{
+    width: 100%;
+    height: 95vh;
+    background-image: url("./img/home.jpeg");
+}
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__button{
+    border: 1px solid green;
+    padding: .5rem;
+    margin: .2rem 0;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(60, 148, 126);
+}
+
+.card__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__button{
+    border: 1px solid blue;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.card__button:hover{
+    background-color: aquamarine;
+}

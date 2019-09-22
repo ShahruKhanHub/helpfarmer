@@ -1,12 +1,10 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.2"
+  "name": "farmunity",
+  "description": "empowering small-scale farming in the developing world",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwaugh/farmunity"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,8 +12,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.2",
+    "web3": "^1.0.0-beta.36"
   },
   "browserslist": {
     "production": [
