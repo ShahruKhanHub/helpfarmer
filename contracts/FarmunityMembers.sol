@@ -5,7 +5,7 @@ import { IFarmunity } from "./interface/IFarmunity.sol";
 
 contract FarmunityRegistry {
 
-    mapping (address => bool) public farms;
+    mapping (address => bool) public farmers;
 
     IFarmunity public farmunity;
     address public governance;
@@ -17,10 +17,10 @@ contract FarmunityRegistry {
 
     function add(address who) public {
         require(msg.sender == governance, "FarmunityRegistry::add: Only governance can add an identity");
-        require(farms[who] == false, "FarmunityRegistry::add: Address is already on the registry");
+        require(farmers[who] == false, "FarmunityRegistry::add: Address is already on the registry");
 
         _reward(who);
-        farms[who] = true;
+        farmers[who] = true;
     }
 
     function remove(address who) public {
@@ -28,11 +28,11 @@ contract FarmunityRegistry {
             msg.sender == governance || msg.sender == who,
             "FarmunityRegistry::remove: Only governance or the identity owner can remove an identity"
         );
-        delete farms[who];
+        delete farmers[who];
     }
 
     function isFarm(address who) public view returns (bool) {
-        return farms[who];
+        return farmers[who];
     }
 
     function _reward(address who) internal {
