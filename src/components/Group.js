@@ -30,8 +30,8 @@ class Group extends Component{
                         <div className="card__flex">
                             <span className="card-title">Proposal 1</span>
                             <div>
-                                <button className="card__button">Yes</button>
-                                <button className="card__button">No</button>
+                                <button className="card__button"> &#10004; </button>
+                                <button className="card__button"> &#10005; </button>
                             </div>
                         </div>
                         </div>
@@ -39,10 +39,10 @@ class Group extends Component{
                     <div className="card grey darken-3">
                         <div className="card-content white-text">
                         <div className="card__flex">
-                            <span className="card-title">Proposal 2</span>
+                            <span className="card-title">Proposal 1</span>
                             <div>
-                                <buttton className="card__button">Yes</buttton>
-                                <buttton className="card__button">No</buttton>
+                                <button className="card__button"> &#10004; </button>
+                                <button className="card__button"> &#10005; </button>
                             </div>
                         </div>
                         </div>
@@ -52,8 +52,8 @@ class Group extends Component{
                         <div className="card__flex">
                             <span className="card-title">Proposal 3</span>
                             <div>
-                                <button className="card__button">Yes</button>
-                                <button className="card__button">No</button>
+                                <button className="card__button"> &#10004; </button>
+                                <button className="card__button"> &#10005; </button>
                             </div>
                         </div>
                         </div>
