@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import TextInput from './common/TextInput';
 import TextAreaInput from './common/TextAreaInput';
+import { groupData } from './data';
 
 class createGroup extends Component{
     state = {
@@ -15,7 +16,13 @@ class createGroup extends Component{
     }
 
     onSubmit(){
-		console.log(this.state.groupName, this.state.description, this.state.location);
+        console.log(this.state.groupName, this.state.description, this.state.location);
+        groupData.push({
+            groupName: this.state.groupName,
+            description: this.state.description,
+            location: this.state.location
+        });
+        this.props.history.push("/groups");
 	}
     
     render(){
