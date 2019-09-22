@@ -19,6 +19,15 @@
     align-items: center;
 }
 
+.home__button{
+    border: 1px solid green;
+    padding: .5rem;
+    margin: .2rem 0;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(60, 148, 126);
+}
+
 .card__flex{
     display: flex;
     justify-content: space-between;
