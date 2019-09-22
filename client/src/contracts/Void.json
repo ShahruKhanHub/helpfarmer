@@ -1,0 +1,102 @@
+{
+  "contractName": "Void",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jlwaugh/Desktop/farmunity/contracts/Void.sol\":\"Void\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jlwaugh/Desktop/farmunity/contracts/Void.sol\":{\"keccak256\":\"0x20dd87526cbb8f8a815957127fc38cf9464e2d104246c0d709fcc2eec5aaec0a\",\"urls\":[\"bzzr://f32fcaddcfd88c99ac46ae3658d00eba0bcd586ecb617728f079ba11cc3ab6d7\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a7230582033d0fdef4ced362468327cc9e779f47b788dfbde56e776128005bd9fb37b24440029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a7230582033d0fdef4ced362468327cc9e779f47b788dfbde56e776128005bd9fb37b24440029",
+  "sourceMap": "24:16:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:16:4;;;;;;;",
+  "deployedSourceMap": "24:16:4:-;;;;;",
+  "source": "pragma solidity 0.5.8;\n\ncontract Void {}",
+  "sourcePath": "/Users/jlwaugh/Desktop/farmunity/contracts/Void.sol",
+  "ast": {
+    "absolutePath": "/Users/jlwaugh/Desktop/farmunity/contracts/Void.sol",
+    "exportedSymbols": {
+      "Void": [
+        1068
+      ]
+    },
+    "id": 1069,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1067,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1068,
+        "linearizedBaseContracts": [
+          1068
+        ],
+        "name": "Void",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1069,
+        "src": "24:16:4"
+      }
+    ],
+    "src": "0:40:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jlwaugh/Desktop/farmunity/contracts/Void.sol",
+    "exportedSymbols": {
+      "Void": [
+        1068
+      ]
+    },
+    "id": 1069,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1067,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1068,
+        "linearizedBaseContracts": [
+          1068
+        ],
+        "name": "Void",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1069,
+        "src": "24:16:4"
+      }
+    ],
+    "src": "0:40:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.16",
+  "updatedAt": "2019-09-22T12:32:55.586Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

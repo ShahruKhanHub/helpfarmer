@@ -1,0 +1,12 @@
+{
+  "name": "farmunity",
+  "description": "empowering small-scale farming in the developing world",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwaugh/farmunity"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.36"
+  }
+}
